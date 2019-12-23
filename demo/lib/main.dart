@@ -1,6 +1,6 @@
  
 import 'package:flutter/material.dart';
-import 'model.dart';
+import 'floating_menu.dart';
 
 void main() => runApp( MyApp() );
 
@@ -18,18 +18,3 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class ListViewExample extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Dynamic ListView"), 
-      ),
-      body: DisplayListView(),      
-      floatingActionButton: FloatingActionButton(
-        onPressed: (){},
-        child:Icon(Icons.add),
-      ),
-    );
-  }
-}
