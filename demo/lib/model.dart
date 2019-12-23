@@ -50,6 +50,23 @@ List listViewData = [
     title: "Group",
     avatarURL: "10",
   ),
+  ListViewModel(
+    title: "Group",
+    avatarURL: "11",
+  ),
+  ListViewModel(
+    title: "Group",
+    avatarURL: "12",
+  ),
+  ListViewModel(
+    title: "Group",
+    avatarURL: "13",
+  ),
+  ListViewModel(
+    title: "Group",
+    avatarURL: "14",
+  ),
+
 ];
 
 class DisplayListView extends StatefulWidget {
@@ -67,7 +84,6 @@ class _DisplayListViewState extends State {
           new ListTile(
             leading: new CircleAvatar(child: Text(listViewData[i].avatarURL)),
             title: new Text(listViewData[i].title),
-            subtitle: new Text(listViewData[i].subtitle),
             onTap: (){},
             onLongPress: (){
               print(
