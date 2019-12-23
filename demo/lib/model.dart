@@ -2,64 +2,52 @@ import 'package:flutter/material.dart';
 
 class ListViewModel{
   final String title;
-  final String subtitle;
   final String avatarURL;
 
   ListViewModel({
     this.title,
-    this.subtitle, 
     this.avatarURL
   });
 }
 List listViewData = [
   ListViewModel(
     title: "Group",
-    subtitle: "Group Category",
     avatarURL: "1",
   ),
   ListViewModel(
     title: "Group",
-    subtitle: "Group Category",
     avatarURL: "2",
   ),
   ListViewModel(
     title: "Group",
-    subtitle: "Group Category",
     avatarURL: "3",
   ),
   ListViewModel(
     title: "Group",
-    subtitle: "Group Category",
     avatarURL: "4",
   ),
   ListViewModel(
     title: "Group",
-    subtitle: "Group Category",
     avatarURL: "5",
   ),
   ListViewModel(
     title: "Group",
-    subtitle: "Group Category",
     avatarURL: "6",
   ),
   ListViewModel(
     title: "Group",
-    subtitle: "Group Category",
     avatarURL: "7",
   ),
   ListViewModel(
     title: "Group",
-    subtitle: "Group Category",
     avatarURL: "8",
   ),
   ListViewModel(
     title: "Group",
-    subtitle: "Group Category",
     avatarURL: "9",
   ),
   ListViewModel(
     title: "Group",
-    subtitle: "Group Category",
     avatarURL: "10",
   ),
 ];
