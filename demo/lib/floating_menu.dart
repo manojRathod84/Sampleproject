@@ -11,10 +11,7 @@ class ListViewExample extends StatelessWidget {
         title: Text("Dynamic ListView"), 
       ),
       body: DisplayListView(),      
-      floatingActionButton: FloatingActionButton(
-        onPressed: (){},
-        child:Icon(Icons.add),
-      ),
+      
     );
   }
 }
